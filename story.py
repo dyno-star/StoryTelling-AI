@@ -41,3 +41,10 @@ def split_into_chapters(full_text, chapter_length=1000):
         chapters.append(chapter)
     return chapters
 
+initial_chapters = split_into_chapters(initial_story)
+
+print(f'Chapter 1: {initial_chapters[0]}')
+print(f'Beginning of the Story:\n{initial_story}\n')
+
+print(f'Step 2: Making the story interactive')
+user_choice= input("Elara reaches a fork in the path. Should she go either left towards the dark cave, right towards the sparkling stream, or climb the mysterious tree? (Enter 'left', 'right' or 'climb'):)")
