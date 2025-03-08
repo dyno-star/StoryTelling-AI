@@ -89,3 +89,5 @@ while keep_going.lower() == 'yes':
     next_part = promptGPT(prompt, model, system_requirements)
     print(f'Next Part of the Story:\n{next_part}\n')
 
+    keep_going = input("Do you want to continue the story? (yes/no): ")
+
