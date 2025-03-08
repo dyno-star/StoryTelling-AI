@@ -64,3 +64,7 @@ else:
 next_part = promptGPT(prompt, model, system_requirements)
 
 print(f'Next Part of the Story:\n{next_part}\n')
+
+next_chapters = split_into_chapters(next_part)
+for chapter in next_chapters:
+    print(f"New Chapter: {chapter}\n")
