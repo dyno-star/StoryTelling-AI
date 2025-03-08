@@ -60,3 +60,7 @@ elif user_choice.lower() == 'climb':
 else:
      prompt = 'Elara hesistated, unsure of which path to take so decided to sit and think for a moment'
 
+
+next_part = promptGPT(prompt, model, system_requirements)
+
+print(f'Next Part of the Story:\n{next_part}\n')
