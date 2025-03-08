@@ -91,3 +91,6 @@ while keep_going.lower() == 'yes':
 
     keep_going = input("Do you want to continue the story? (yes/no): ")
 
+print("\nThank you for joining Elara on her adventure!")
+
+
