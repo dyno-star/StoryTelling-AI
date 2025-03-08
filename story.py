@@ -68,3 +68,24 @@ print(f'Next Part of the Story:\n{next_part}\n')
 next_chapters = split_into_chapters(next_part)
 for chapter in next_chapters:
     print(f"New Chapter: {chapter}\n")
+
+print("\nStep4: Concluding the Story")
+keep_going = input("Do you want to continue the story? (yes/no): ")
+
+while keep_going.lower() == 'yes':
+    print("Interactive Options.........")
+    print(1, "Elara enters the dark cave")
+    print(2, "Elara explores the sparkling stream")
+    print(3, "Elara opens the mysterious box")
+    user_choice_type = input("Choose an option (1/2/3): ")
+    if user_choice_type == '1':
+        prompt = 'Elara enters the dark cave, the whispers grow louder, and she sees a glimmer of light at the end of the tunnel...'
+    elif user_choice_type == '2':
+        prompt = 'Elara explores the sparkling stream, she finds a hidden underwater cave with glowing crystals...'
+    elif user_choice_type == '3':
+        prompt = 'Elara opens the mysterious box, inside she finds a map leading to a hidden treasure...'
+    else:
+        prompt = 'Elara hesitated, unsure of what to do next, she decided to rest and think for a while...'
+    next_part = promptGPT(prompt, model, system_requirements)
+    print(f'Next Part of the Story:\n{next_part}\n')
+
