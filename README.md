@@ -8,7 +8,7 @@ This project uses the OpenAI GPT-3.5 API to generate an interactive story, where
 
 ### Features
 - Generate a story based on an initial prompt.
-- Make it 
+- Make it as interesting
 - Present choices to the user, allowing them to direct the story.
 - Interactive decision-making that shapes the outcome of the story.
 - Split the generated story into chapters for better readability.
