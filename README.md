@@ -19,6 +19,7 @@ Follow the steps below to get started with the project.
 ### 1. Clone the repository
 
 To clone this repository, use the following command:
+"
 
 ```bash
 git clone https://github.com/your-username/interactive-story.git
